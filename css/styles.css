@@ -1,0 +1,32 @@
+/* белый #ffffff */
+/* черный заголовки #212121 */
+/* черный текст #757575 */
+/* синий #2196F3 */
+
+:root {
+  --primary-text-color: ;
+}
+
+body {
+  background-color: #fff;
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+/* site-nav */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* hero */
+.hero-title {
+  color: #ffffff;
+}
+
+/* section */
+.section-title {
+  color: #212121;
+}
