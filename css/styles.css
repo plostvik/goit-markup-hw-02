@@ -11,7 +11,7 @@
 :root {
   --primary-text-color: #757575;
   --title-color: #212121;
-  --background-color: #ffffff;
+  --primary-white-color: #ffffff;
   --background-secondary-color: #f5f4fa;
   --background-footer-color: #2f303a;
   --accent-color: #2196f3;
@@ -20,7 +20,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--background-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 
@@ -86,7 +86,7 @@ body {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: var(--primary-white-color);
 }
 
 /* Кнопка */
@@ -98,7 +98,7 @@ body {
   text-align: center;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  color: var(--background-color);
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
@@ -139,7 +139,7 @@ body {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: var(--primary-white-color);
 }
 
 /* Команда */
@@ -183,15 +183,7 @@ footer {
 }
 
 .logo-part2 {
-  color: var(--background-color);
-}
-
-.address {
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--background-color);
+  color: var(--primary-white-color);
 }
 
 .address .link {
@@ -199,6 +191,24 @@ footer {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
+}
+
+.address .location.link {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+  background-color: var(--accent-color);
+}
+
+.address .location.link:hover,
+.address .location.link:focus {
+  background-color: var(--accent-color);
 }
 
 .socials .link:hover,
@@ -212,7 +222,7 @@ footer {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: var(--primary-white-color);
 }
 
 .form {
@@ -240,7 +250,7 @@ footer {
 
 .radio-button:hover,
 .radio-button:focus {
-  color: var(--background-color);
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
@@ -263,5 +273,5 @@ footer {
   font-size: 18px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  color: var(--background-color);
+  color: var(--primary-white-color);
 }
